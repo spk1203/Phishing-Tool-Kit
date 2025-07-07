@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff00;
+}
+
+.container {
+    width: 350px;
+    padding: 20px;
+    background-color: #111;
+    border: 1px solid #00ff00;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+
+.slogans {
+    margin-bottom: 20px;
+}
+
+.slogan-image {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #00ff00;
+}
+
+.login-box {
+    margin: 0 auto;
+    max-width: 280px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #00ff00;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ff00;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #00cc00;
+}
+
+.login-fb {
+    background-color: #3b5998;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.login-fb:hover {
+    background-color: #2d4373;
+}
+
+.login-ig {
+    background-color: #e1306c;
+    color: #fff;
+}
+
+.login-ig:hover {
+    background-color: #b0285a;
+}
+
+.disclaimer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+}
